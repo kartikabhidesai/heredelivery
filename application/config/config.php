@@ -26,7 +26,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 //date_default_timezone_set('Asia/Kuala_Lumpur');
 
-$config['base_url'] = "http://".$_SERVER['HTTP_HOST'].'/';
+//$config['base_url'] = "http://".$_SERVER['HTTP_HOST'].'/';
+$config['base_url'] = "http://localhost/heredelivery";
 
 /*
 |--------------------------------------------------------------------------
