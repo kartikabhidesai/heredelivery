@@ -74,22 +74,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-if ($_SERVER['HTTP_HOST'] != "localhost") {
-    $username = 'root';
-    $password = '';
-    $database = 'heredelivery';
-} else {
-    $username = 'root';
-    $password = '';
-    $database = 'heredelivery';
-}
-
 $db['default'] = array(
     'dsn' => '',
     'hostname' => 'localhost',
-    'username' => $username,
-    'password' => $password,
-    'database' => $database,
+    'username' => 'root',
+    'password' => '',
+    'database' => 'mushroomapp',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => FALSE,
