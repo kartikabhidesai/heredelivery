@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Myriad Arabic';
+    src: url('MyriadArabic-Bold.eot');
+    src: url('MyriadArabic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('MyriadArabic-Bold.woff2') format('woff2'),
+        url('MyriadArabic-Bold.woff') format('woff'),
+        url('MyriadArabic-Bold.ttf') format('truetype'),
+        url('MyriadArabic-Bold.svg#MyriadArabic-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+

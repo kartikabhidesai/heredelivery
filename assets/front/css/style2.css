@@ -1,0 +1,232 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+@font-face {
+    font-family: 'Myriad Arabic';
+    src: url('fonts/MyriadArabic-Bold.eot');
+    src: url('fonts/MyriadArabic-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/MyriadArabic-Bold.woff2') format('woff2'),
+        url('fonts/MyriadArabic-Bold.woff') format('woff'),
+        url('fonts/MyriadArabic-Bold.ttf') format('truetype'),
+        url('fonts/MyriadArabic-Bold.svg#MyriadArabic-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+p{
+	margin: 0px;
+
+}
+a:hover{
+	color: black;
+	text-decoration: none;
+}
+.background{
+	padding: 50px  0px 0px 50px;
+	background-image: url(images/back_2.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+
+.main{
+
+position: relative;
+display: flex;
+}
+.left-main{width: 35%;}
+.tagline h2{
+font-family: 'El Messiri';
+font-weight: 800;
+color:white;
+letter-spacing: 2px;
+}
+
+
+.app-btn{margin-top: 25px;font-weight: bold;margin-bottom: 10px;}
+.app-btn p
+{ 	color: white;
+	padding-left: 5px;
+	font-size: 28px;
+	font-family: 'Myriad Arabic';
+
+ }
+.app-btn a{
+	text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 153px;
+    height: 45px;
+    background: white;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: lighter;
+    margin-top:5px;
+    font-family: 'Myriad Arabic';
+}
+.app-btn2{margin-top: 25px;font-weight: bold;margin-bottom: 5px;}
+.app-btn2 p
+{ 	color: white;
+	padding-left: 5px;
+	font-size: 28px;
+	font-family: 'Myriad Arabic';
+
+ }
+.app-btn2 a{
+	text-decoration: none;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 153px;
+    height: 45px;
+    background: white;
+    text-align: center;
+    vertical-align: middle;
+    color:black;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: lighter;
+    margin-top:2px;
+    font-family: 'Myriad Arabic';
+}
+
+
+.right-main img{position: relative;margin-left: 0px;}
+.login{position: absolute;top: 100px;left:80px;}
+.login img{margin-left:15px;}
+form{margin-top:50px;}
+form input[type="text"]{
+
+background:#dac7c5;
+border:none;
+text-align: center;
+padding: 5px 0px;
+border-radius: 5px;
+}
+form a{
+width: 100%;
+display:inline-block;
+background:#dac7c5;
+border:none;
+border-radius: 5px;
+text-align: center;
+padding: 5px 0px;
+color: black;
+	 font-family: 'Myriad Arabic';
+	 font-size: 20px;
+	 text-decoration: none;
+	 margin-top: 25px;
+}
+form input::placeholder{
+	color: black;
+	 font-family: 'Myriad Arabic';
+	 font-size: 20px;
+}
+
+.footer{text-align: center;   font-family: 'Myriad Arabic';font-size: 20px;color: white; text-transform: capitalize;margin-top: 50px;}
+
+
+@media(max-width: 768px){
+.background{padding: 50px  0px 0px 20px;}
+}
+@media(max-width: 425px){
+	.abc{
+		margin-top: 25px;
+	}
+	.img1 {
+		margin-left: -20px;
+	}	
+	.login{
+		left: 58px;
+	}
+	.login img {
+		margin-left: 0px;
+	}
+}
+@media(max-width: 375px){
+	.abc{
+		margin-top: 25px;
+	}
+	.img1 {
+		margin-left: -20px;
+	}	
+	.login{
+		left: 58px;
+	}
+	.login img {
+		margin-left: 0px;
+	}
+}
+
+@media(max-width: 360px){
+	.abc{
+		margin-top: 25px;
+	}
+	.img1 {
+		margin-left: -20px;
+	}	
+	.login{
+		left: 58px;
+	}
+	.login img {
+		margin-left: 0px;
+	}
+}
+@media(max-width: 325px){
+	.abc{
+		margin-top: 25px;
+	}
+	.img1 {
+		margin-left: -20px;
+	}	
+	.login{
+		left: 58px;
+	}
+	.login img {
+		margin-left: 0px;
+	}
+}
+
+
+.room {
+font-size: 36px;
+    font-weight: bolder;
+    background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #d5af12),color-stop(0, #eccb1c), color-stop(0.3, #0184e1), color-stop(0.45, #0377d2), color-stop(0.6, #d70485),color-stop(0.75, #d70485), color-stop(0.9, #9b056b), color-stop(1, #f22) );
+    background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+form input[type="text"] {
+    /* background: #dac7c5; */
+    border: none;
+    /* text-align: center; */
+    padding: 5px 13px;
+    border-radius: 5px;
+}
+
+form {
+    margin-top: 50px;
+    margin-left: -13px;
+}
+
+.sbtbutton{
+    width: 100%;
+    display: inline-block;
+    background: #dac7c5;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 0px;
+    color: black;
+    font-family: 'Myriad Arabic';
+    font-size: 20px;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.has-error{
+    border: 3px solid red !important;
+}
